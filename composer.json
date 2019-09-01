@@ -1,0 +1,21 @@
+{
+  "name": "ivanlulyf/bunnyphp-redis",
+  "description": "RedisCache for BunnyPHP",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Lu",
+      "email": "me@ivanlu.cn"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BunnyPHP\\Cache\\": "cache/"
+    }
+  },
+  "require": {
+    "ivanlulyf/bunnyphp": "^2.2",
+    "ext-redis": "*"
+  }
+}
