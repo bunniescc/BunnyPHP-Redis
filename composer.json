@@ -11,7 +11,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "BunnyPHP\\Cache\\": "cache/"
+      "Bunny\\Cache\\": "cache/"
     }
   },
   "require": {

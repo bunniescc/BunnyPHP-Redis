@@ -18,7 +18,7 @@ composer require ivanlulyf/bunnyphp-redis
 
 ```php
 "cache" =>[
-    "name" => "bunnyphp.redis",
+    "name" => "bunny.redis",
     "host" => "127.0.0.1",          // 替换成你的redis服务器地址
     "port" => 6379                  // 替换成你的redis服务器端口
 ],

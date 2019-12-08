@@ -18,7 +18,7 @@ composer require ivanlulyf/bunnyphp-redis
 
 ```php
 "cache" =>[
-    "name" => "bunnyphp.redis",
+    "name" => "bunny.redis",
     "host" => "127.0.0.1",          // replace to your redis server address
     "port" => 6379                  // replace to your redis server port
 ],

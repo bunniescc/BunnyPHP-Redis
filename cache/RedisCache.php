@@ -1,7 +1,7 @@
 <?php
 
 
-namespace BunnyPHP\Cache;
+namespace Bunny\Cache;
 
 
 use BunnyPHP\Cache;
