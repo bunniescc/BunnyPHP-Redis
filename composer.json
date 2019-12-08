@@ -15,7 +15,7 @@
     }
   },
   "require": {
-    "ivanlulyf/bunnyphp": "^2.2",
+    "ivanlulyf/bunnyphp": "^2.3",
     "ext-redis": "*"
   }
 }
