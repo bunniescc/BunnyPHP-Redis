@@ -10,9 +10,9 @@
     }
   ],
   "autoload": {
-    "psr-4": {
-      "Bunny\\Cache\\": "cache/"
-    }
+    "classmap": [
+      "src"
+    ]
   },
   "require": {
     "ivanlulyf/bunnyphp": "^2.3",
