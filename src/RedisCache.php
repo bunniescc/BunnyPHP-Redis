@@ -1,8 +1,6 @@
 <?php
 
-
 namespace Bunny\Cache;
-
 
 use BunnyPHP\Cache;
 use Redis;
@@ -23,12 +21,12 @@ class RedisCache implements Cache
         $this->redis->connect($host, $port);
     }
 
-    public function get($key, $expire = 0)
+    public function get(string $key, $expire = 0)
     {
         return $this->redis->get($key);
     }
 
-    public function has($key, $expire = 0)
+    public function has(string $key, $expire = 0): bool
     {
         if ($expire > 0) {
             return $this->redis->ttl($key) != -1;
@@ -36,7 +34,7 @@ class RedisCache implements Cache
         return $this->redis->exists($key);
     }
 
-    public function set($key, $value, $expire = 0)
+    public function set(string $key, $value, $expire = 0)
     {
         $this->redis->set($key, $value);
         if ($expire > 0) {
@@ -44,7 +42,7 @@ class RedisCache implements Cache
         }
     }
 
-    public function del($key)
+    public function del(string $key)
     {
         $this->redis->del($key);
     }
