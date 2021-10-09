@@ -11,13 +11,13 @@ class RedisCache implements Cache
     /**
      * @var $redis Redis
      */
-    private $redis;
+    private Redis $redis;
 
     public function __construct($config = [])
     {
         $this->redis = new Redis();
-        $host = isset($config['host']) ? $config['host'] : '127.0.0.1';
-        $port = isset($config['port']) ? $config['port'] : 6379;
+        $host = $config['host'] ?? '127.0.0.1';
+        $port = $config['port'] ?? 6379;
         $this->redis->connect($host, $port);
     }
 
