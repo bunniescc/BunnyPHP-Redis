@@ -19,6 +19,7 @@ class RedisCache implements Cache
         $host = $config['host'] ?? '127.0.0.1';
         $port = $config['port'] ?? 6379;
         $this->redis->connect($host, $port);
+        if (isset($config['password'])) $this->redis->auth($config['password']);
     }
 
     public function get(string $key, $expire = 0)
