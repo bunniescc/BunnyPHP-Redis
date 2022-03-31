@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "ivanlulyf/bunnyphp",
-            "version": "3.0.3",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/IvanLuLyf/BunnyPHP.git",
-                "reference": "8d5c80e033234b5b90032e0ff19aeb342bb0dda3"
+                "reference": "079758fe84c4b4493d57d392b0f85d80dbe6f6c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/IvanLuLyf/BunnyPHP/zipball/8d5c80e033234b5b90032e0ff19aeb342bb0dda3",
-                "reference": "8d5c80e033234b5b90032e0ff19aeb342bb0dda3",
+                "url": "https://api.github.com/repos/IvanLuLyf/BunnyPHP/zipball/079758fe84c4b4493d57d392b0f85d80dbe6f6c0",
+                "reference": "079758fe84c4b4493d57d392b0f85d80dbe6f6c0",
                 "shasum": ""
             },
             "require": {
@@ -54,7 +54,7 @@
                 "issues": "https://github.com/IvanLuLyf/BunnyPHP/issues",
                 "source": "https://github.com/IvanLuLyf/BunnyPHP"
             },
-            "time": "2021-10-05T18:18:22+00:00"
+            "time": "2021-11-04T15:38:02+00:00"
         }
     ],
     "packages-dev": [],
